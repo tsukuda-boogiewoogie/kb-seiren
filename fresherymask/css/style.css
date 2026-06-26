@@ -1,0 +1,746 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /*16px*62.5%=10px*/
+}
+body {
+  color: #707070;
+  font-family: kozuka-gothic-pro, "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/*---------------------
+*
+*共通パーツ
+*
+---------------------*/
+.br-pc {
+  display: block;
+}
+.br-sp {
+  display: none;
+}
+.bluefont {
+  color: #1F86BA;
+}
+.txt-center {
+  text-align: center;
+}
+.attention {
+  font-size: 1.4rem;
+}
+.small-txtbox {
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid #707070;
+  margin: 0 auto 20px;
+  padding: 10px 5px;
+}
+.long-txtbox {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  border: 1px solid #707070;
+  text-align: center;
+  padding: 10px 5px;
+}
+.middle-txtbox {
+  max-width: 544px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  border: 1px solid #707070;
+  text-align: center;
+  padding: 10px 5px;
+}
+/*右寄せボックス*/
+.flush-right {
+  display: flex;
+  width: 100%;
+  padding-left: calc(50% - 615px);
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.flush-right div:first-of-type {
+  margin-right: 1%;
+}
+.flush-right div:last-of-type{
+	max-width: 860px;	
+}
+
+/*左寄せボックス*/
+.flush-left {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding-right: calc(50% - 615px);
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.flush-left div:first-of-type {
+  width: 99%;
+  max-width: 520px;
+  margin-left: 1%;
+  text-align: right;
+}
+.flush-left div:first-of-type > div {
+  text-align: left;
+}
+
+.flush-left div:last-of-type{
+	max-width: 860px;	
+}
+/*真ん中揃えボックス*/
+.center-box {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+/*真ん中揃えボックス・狭い*/
+.narrow-box {
+  max-width: 900px;
+  margin: 70px auto 0;
+  text-align: left;
+  padding-bottom: 140px;
+}
+/*ポイントタイトル*/
+.point {
+  font-family: josefin-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.8rem;
+  line-height: 1;
+  display: inline-block;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.point span {
+  display: block;
+  font-size: 8rem;
+  line-height: 1;
+  padding-top: 10px;
+  position: relative;
+  margin-bottom: 64px;
+}
+.point span:after {
+  content: "";
+  width: 1px;
+  height: 54px;
+  background: #707070;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 100px;
+  margin: auto;
+}
+.point-tit {
+  font-size: 2.8rem;
+  margin-bottom: 21px;
+  font-weight: 300;
+}
+/*---------------------
+*
+*Header
+*
+---------------------*/
+.header {
+  background: #F4FBFD;
+  width: 100%;
+  text-align: center;
+}
+.logobar {
+  width: 100%;
+  background: #1F86BA;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+/*---------------------
+*
+*introduction
+*
+---------------------*/
+.introduction {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 100px 0 120px;
+  text-align: center;
+}
+.introduction-tit {
+  font-size: 2.8rem;
+  margin-bottom: 34px;
+  line-height: 2.2;
+  font-weight: 400;
+}
+.introduction-tit span {
+  display: block;
+}
+.introduction-txt {
+  font-size: 1.8rem;
+  line-height: 2.2;
+}
+/*---------------------
+*
+*point01
+*
+---------------------*/
+.point01 {
+  background: #F4FBFD;
+  padding: 120px 0 180px;
+}
+.point01 .long-txtbox {
+  margin-bottom: 70px;
+}
+.arrowchart {
+  display: flex;
+}
+.arrowchart li {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+.arrowchart li:first-of-type {
+  padding-left: 0;
+  text-indent: 0;
+}
+.arrowchart li:before {
+  content: "⇒";
+  padding: 0 .5em;
+}
+.arrowchart li:first-of-type:before {
+  display: none;
+}
+.airflow-difference {
+  display: flex;
+}
+.airflow-difference dl {
+  display: flex;
+}
+.airflow-difference dl dt:after {
+  content: ":";
+  margin: 0 .5em;
+}
+.airflow-difference dl dt:last-of-type {
+  margin-left: 1em;
+}
+.airflow-difference dl dd:last-of-type {
+  padding-right: 1em;
+}
+.mask-photo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mask-photo img {
+  display: block;
+  max-width: 49.5%;
+}
+.mask-photo img:first-of-type {
+  margin-right: .5%;
+}
+.youtube-one__wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.youtube-one {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+.youtube-one iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*---------------------
+*
+*point02
+*
+---------------------*/
+.point02 {
+  padding: 120px 0 180px;
+}
+.video-flex {
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 120px;
+  text-align: center;
+}
+.video-flex__txt {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.youtube-flex {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+}
+.youtube-flex iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.youtube-flex__wrap {
+  max-width: 550px;
+  width: 100%;
+}
+.video-flex > .youtube-flex__wrap:first-of-type {
+  margin-right: 1%;
+}
+.youtube-flex__wrap p {
+  margin-top: 10px;
+}
+/*---------------------
+*
+*Point03
+*
+---------------------*/
+.point03 {
+  background: #F4FBFD;
+  padding: 120px 0 180px;
+}
+.kind-photo {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.kind-photo p {
+  margin-top: 20px;
+}
+/*---------------------
+*
+*Point04
+*
+---------------------*/
+.point04 {
+  padding: 120px 0 180px;
+}
+.comparison {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.evolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.evolution p:first-of-type {
+  margin-bottom: calc(25% - 1em);
+}
+.allow-font {
+  color: #1F86BA;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+/*---------------------
+*
+*Point05
+*
+---------------------*/
+.point05 {
+  background: #F4FBFD;
+  padding: 120px 0 180px;
+}
+.table-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.table-flex > div:first-of-type {
+  margin-right: 3%;
+}
+.point05 .small-txtbox {
+  margin-bottom: 50px;
+}
+.point05 div:first-of-type .small-txtbox {
+  margin-bottom: 90px;
+}
+.table-txt {
+  padding-top: 2em;
+  text-align: center;
+}
+.table-txt__small {
+  padding-top: 0;
+  text-align: right;
+  font-size: 1.4rem;
+}
+/*---------------------
+*
+*outline
+*
+---------------------*/
+.outline {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 170px 0 130px;
+}
+.outline-tit {
+  display: flex;
+  align-items: center;
+  font-size: 2.8rem;
+  margin-bottom: 120px;
+  font-weight: 300;
+}
+.outline-tit:before, .outline-tit:after {
+  border-top: 1px solid;
+  content: "";
+  flex-grow: 1;
+}
+.outline-tit:before {
+  margin-right: 2.5rem;
+}
+.outline-tit:after {
+  margin-left: 2.5rem;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+.product-photo {
+  width: 46.2%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  text-align: center;
+  margin-right: 1%;
+}
+.product-photo div:first-of-type {
+  margin-right: 1%;
+}
+.product-photo .small-txtbox {
+  margin: 1em 0 0;
+}
+.product-table {
+  width: 52.8%;
+  max-width: 650px;
+}
+.product-table {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: none;
+  margin-bottom: 123px;
+}
+.product-table dt {
+  width: 20%;
+  max-width: 120px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+}
+.product-table dd {
+  padding: 10px;
+  margin: 0;
+  border-top: 1px solid #ccc;
+  width: 80%;
+  box-sizing: border-box;
+}
+.product-table dt:first-of-type, .product-table dd:first-of-type {
+  border-top: none;
+}
+.detail-txt {
+  font-size: 1.4rem;
+  margin-bottom: 120px;
+}
+.detail-txt p:not(:last-of-type) {
+  margin-bottom: 43px;
+}
+.maker {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 100%;
+}
+.maker li:first-of-type {
+  margin-right: 5px;
+}
+.maker li p {
+  margin-bottom: 25px;
+}
+.maker img {
+  border: 1px solid #1F86BA;
+}
+.maker a {
+  transition: .2s;
+}
+.maker a:hover {
+  opacity: .6;
+}
+.fotter {
+  background: #1F86BA;
+  color: #fff;
+  padding: 32px 0;
+  line-height: 1;
+  text-align: center;
+}
+/*---------------------------------
+
+  *SPデザインココから
+
+---------------------------------*/
+@media screen and (max-width: 769px) {
+  /*共通パーツ*/
+  .br-pc {
+    display: none;
+  }
+  .br-sp {
+    display: block;
+  }
+  .point span {
+    font-size: 6rem;
+    margin-bottom: 55px;
+	  padding-top: 0;
+  }
+  .point {
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+  .point-tit {
+    margin-bottom: 45px;
+  }
+  .point span:after {
+    top: 70px;
+    height: 35px;
+  }
+  .flush-right {
+    display: block;
+    margin-bottom: 120px;
+  }
+  .flush-right div:first-of-type {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .flush-left {
+    display: block;
+    margin-bottom: 120px;
+  }
+  .flush-left div:first-of-type {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+  /*header*/
+  .logobar {
+    height: 60px;
+  }
+  .logo {
+    width: 120px;
+    margin: 0 0 0 20px;
+    line-height: 1;
+  }
+  /*introduction*/
+  .introduction {
+    padding: 60px 20px 80px;
+  }
+  .introduction-tit {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .introduction-txt {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  /*point1*/
+  .point01 {
+    padding: 60px 20px 80px;
+  }
+  .point-txtbox {
+    margin-bottom: 20px;
+  }
+  .point01 .long-txtbox {
+    text-align: left;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  .narrow-box {
+    margin: 40px auto 0;
+    padding-bottom: 60px;
+  }
+  .arrowchart {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .arrowchart li {
+    padding: 0;
+    text-indent: 0;
+  }
+  .arrowchart li:before {
+    content: "⇓";
+    display: block;
+  }
+  .airflow-difference {
+    flex-wrap: wrap;
+  }
+  .airflow-difference dl dt:after {
+    margin: 0;
+  }
+  .mask-photo {
+    display: block;
+  }
+  .mask-photo img {
+    max-width: 100%;
+  }
+  .mask-photo img:first-of-type {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  /*point2*/
+  .point02 {
+    padding: 60px 20px 80px;
+  }
+  .video-flex {
+    display: block;
+    padding: 20px 0 0;
+    margin-bottom: 60px;
+  }
+  .video-flex div {
+    margin-bottom: 0;
+  }
+  .youtube-flex__wrap p {
+    margin-top: 2px;
+  }
+  .point02 .arrowchart {
+    margin-top: 1em;
+  }
+  .video-flex > .youtube-flex__wrap:first-of-type {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  /*point03*/
+  .point03 {
+    padding: 60px 20px 80px;
+  }
+  .kind-photo div:first-of-type {
+    margin-right: 10px;
+  }
+  .kind-photo p {
+    margin-top: 10px;
+  }
+  .point03 > .flush-right {
+    margin-bottom: 60px;
+  }
+  /*point04*/
+  .point04 {
+    padding: 60px 20px 80px;
+  }
+  .comparison {
+    display: block;
+  }
+  .evolution {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .evolution p:first-of-type {
+    margin-bottom: 10px;
+  }
+  .evolution p img {
+    transform: rotate(90deg);
+  }
+  /*point05*/
+  .point05 {
+    padding: 60px 20px 80px;
+  }
+  .table-flex {
+    display: block;
+    text-align: center;
+  }
+  .table-flex > div > img {
+    max-width: 300px;
+  }
+  .table-flex > div:first-of-type {
+    margin-right: 0;
+  }
+  .table-txt__small {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .point05 div:first-of-type .small-txtbox {
+    margin-bottom: 20px;
+  }
+  .point05 .small-txtbox {
+    margin-bottom: 20px;
+  }
+  .table-txt__small {
+    margin-bottom: 20px;
+  }
+  .table-txt {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align: left;
+  }
+  .table-flex > div:last-of-type .table-txt {
+    padding-bottom: 0;
+  }
+  /*outline*/
+  .outline {
+    padding: 60px 20px 80px;
+  }
+  .outline-tit {
+    margin-bottom: 80px;
+  }
+  .product {
+    display: block;
+  }
+  .product-photo {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+  .product-table dt {
+    padding: 5px 10px 5px 0px;
+  }
+  .product-table dd {
+    padding: 5px 0px 5px 5px;
+  }
+  .product-photo div {
+    width: 50%;
+  }
+  .product-photo div>p:last-of-type {
+    font-size: 1.4rem;
+  }
+  .product-photo div:first-of-type {
+    margin-right: 3%;
+  }
+  .product-table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .maker {
+    display: block;
+  }
+  .maker li:first-of-type {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  /*消さないように注意*/
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+.tr-reason label{
+  display: block;
+}
+.tr-reason {
+  line-height: 1.2;
+}
+.tx-label {
+  margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .inquiryTable {
+    width: 100%;
+  }
+  .inquiryTable td {
+    display: block;
+    text-align: left;
+    width: 90% !important;
+  }
+#wrapper_inquiry table td:nth-child(2) .red {
+
+    display: block
+  }
+#wrapper_inquiry table td:nth-child(1){
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  textarea {
+    width: 100% !important;
+
+  }
+}

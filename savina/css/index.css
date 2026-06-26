@@ -1,0 +1,34 @@
+@charset "shift_jis";
+.syohyo {
+	padding: 5px;
+	font-size: 16px;
+	line-height: 140%;
+	font-weight: bold;
+	color: #38708C;
+}
+.minimax {
+	padding: 5px;
+	font-size: 10px;
+	line-height: 140%;
+}
+ul.syohin {
+	padding: 0px;
+	list-style: none;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+.syohin li {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+iframe {
+	height: 220px;
+	width: 490px;
+	margin-bottom: 40px;
+}
+html {
+	overflow-x:hidden;
+}

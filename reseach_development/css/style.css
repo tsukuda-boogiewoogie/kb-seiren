@@ -1,0 +1,54 @@
+.section-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    padding: .5rem .8rem;
+    color: #fff;
+    background-color: #1f86ba;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.technology h3,
+.system h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1f86ba;
+    border-left: 4px solid #1f86ba;
+    padding-left: .5rem;
+}
+
+.product {
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    color: #1f86ba;
+    border-bottom: 2px solid #1f86ba;
+    padding-bottom: .5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.product p {
+    text-align: left;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .section-wrap {
+        max-width: auto;
+        padding: 0 1rem;
+    }
+
+    .w960 {
+        padding: 0 1rem;
+    }
+}

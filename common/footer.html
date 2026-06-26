@@ -1,0 +1,124 @@
+<div class="goTop"><a href="#" class="topBtn" id="topBtn"><img src="/images/icn_arrow.png" /></a></div>
+<div id="footer">
+<div id="footer01">
+	<div class="footer01Contents">
+		<div class="tabs">
+			<div class="tab-buttons">
+				<span class="content1">企業情報</span>
+				<span class="content2">ニュース一覧</span>
+				<span class="content3">製品情報</span>
+				<span class="content4">研究開発</span>
+				<span class="content5">サステナビリティ</span>
+				<span class="content6">株主・投資家情報</span>
+				<span class="content7">採用情報</span>
+				<span class="content8">お問い合わせ</span>
+				<div id="lamp" class="content1"></div>
+			</div>
+			<div class="tab-content">
+					<div class="content1">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="/company_info/">企業情報</a></li>
+						</ul>
+						<ul class="tabMenu-02">
+							<li class="tabMenu-02__item"><a href="/company_info/summary.html">会社概要</a></li>
+							<li class="tabMenu-02__item"><a href="/company_info/message.html">代表挨拶</a></li>
+							<li class="tabMenu-02__item"><a href="/company_info/organization.html">組織図</a></li>
+							<li class="tabMenu-02__item"><a href="/company_info/history.html">沿革・歴史</a></li>
+							<li class="tabMenu-02__item"><a href="/company_info/project.html">事業紹介</a></li>
+							<li class="tabMenu-02__item"><a href="/company_info/stronghold.html">生産拠点</a></li>
+						</ul>
+					</div>
+
+					<div class="content2">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="/news/">ニュース一覧</a></li>
+						</ul>
+					</div>
+
+					<div class="content3">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="/kbs_products/">製品情報</a></li>
+						</ul>
+						<ul class="tabMenu-02">
+							<li class="tabMenu-02__item"><a href="/kbs_products/filament.html">フィラメント</a></li>
+							<li class="tabMenu-02__item"><a href="/kbs_products/textile.html">テキスタイル</a></li>
+							<li class="tabMenu-02__item"><a href="/kbs_products/seihin.html">製品</a></li>
+							<li class="tabMenu-02__item"><a href="/kbs_products/belimafamily.html">ベリーマ®Xシリーズ</a></li>
+						</ul>
+					</div>
+
+					<div class="content4">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="/reseach_development/">研究開発</a></li>
+						</ul>
+					</div>
+
+					<div class="content5">
+						<ul class="tabMenu-02">
+							<li class="tabMenu-02__item"><a href="/sustainability/environment.html">環境への取り組み</a></li>
+							<li class="tabMenu-02__item"><a href="/sustainability/society.html">社会への取り組み</a></li>
+						</ul>
+					</div>
+
+					<div class="content6">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="https://www.seiren.com/invest/" target="_blank">株主・投資家情報</a></li>
+						</ul>
+					</div>
+
+					<div class="content7">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="https://recruit.kbseiren.com/opening/" target="_blank">採用情報</a></li>
+						</ul>
+					</div>
+
+					<div class="content8">
+						<ul class="tabMenu-01">
+							<li class="tabMenu-01__item"><a href="/inquiry-mail/">お問い合わせ</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		<script>
+			$('.tab-content>div').hide();
+			$('.tab-content>div').first().slideDown();
+			$('.tab-buttons span').click(function(){
+				var thisclass=$(this).attr('class');
+				$('#lamp').removeClass().addClass('#lamp').addClass(thisclass);
+				$('.tab-content>div').each(function(){
+					if($(this).hasClass(thisclass)){
+					$(this).fadeIn(800);
+			}
+			else{
+				$(this).hide();
+					}
+				});
+			});
+		</script>
+
+		<p class="footEnglish"><a href="/english/"><span>EN</span></a></p>
+	</div>
+</div>	
+<div id="footer03">
+	<ul class="footNavi-m clearfix">
+		<li class="footNavi-m__item"><a href="/company_info/"><span>企業情報</span></a></li>
+		<li class="footNavi-m__item"><a href="/news/"><span>ニュース一覧</span></a></li>
+		<li class="footNavi-m__item"><a href="/kbs_products/"><span>製品情報</span></a></li>
+		<li class="footNavi-m__item"><a href="/reseach_development/"><span>研究開発</span></a></li>
+		<li class="footNavi-m__item"><a href="/sustainability/environment.html"><span>サステナビリティ</span></a></li>
+		<li class="footNavi-m__item"><a href="https://www.seiren.com/invest/" target="_blank"><span>株主・投資家情報</span></a></li>
+		<li class="footNavi-m__item"><a href="https://recruit.kbseiren.com/opening/" target="_blank"><span>採用情報</span></a></li>
+		<li class="footNavi-m__item"><a href="/inquiry-mail/"><span>お問い合わせ</span></a></li>
+	</ul>
+</div>	
+
+<div id="footer02">
+	<div class="footer02Contents clearfix">
+		<ul class="footerLink clearfix">
+			<li class="footerLink__item"><a href="https://www.seiren.com/privacy/" target="_blank">プライバシーポリシー</a></li>
+			<li class="footerLink__item"><a href="https://www.seiren.com/about/" target="_blank">ご利用条件・免責事項</a></li>
+		</ul>
+		<small class="copyright">© 2016 KB SEIREN LTD.</small>
+	</div>
+</div>
+</div>

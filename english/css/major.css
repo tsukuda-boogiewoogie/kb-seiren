@@ -1,0 +1,168 @@
+@charset "utf-8" ;
+
+.noline {
+
+	width: 750px;
+
+	margin-top: 15px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	font-family: "Arial" , "Helvetica" , "sans-serif" ;
+
+	color: #000000;
+
+	line-height: 140%;
+
+}
+
+.boxLP {
+
+	width: 750px;
+
+	margin-bottom: 5px;
+
+	clear: both;
+
+	height: 70px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	margin-top: 0px;
+
+}
+
+.box5 {
+
+	float: left;
+
+	height: 70px;
+
+	width: 370px;
+
+	border: 1px solid #999999;
+
+}
+
+.box5in2 {
+
+	float: left;
+
+	padding: 0px;
+
+}
+
+.box5in3 {
+
+	float: right;
+
+	width: 228px;
+
+	height: 70px;
+
+	font-size: 12px;
+
+	padding-right: 5px;
+
+}
+
+/*
+
+.box5in4 {
+
+	float: right;
+
+	width: 230px;
+
+	height: 70px;
+
+	font-size: 12px;
+
+	line-height: 120%;
+
+}
+
+*/
+
+.box6 {
+
+	float: right;
+
+	height: 70px;
+
+	width: 370px;
+
+	border: 1px solid #999999;
+
+}
+
+.box6in2 {
+
+	float: left;
+
+	padding: 0px;
+
+}
+
+.box6in3 {
+
+	float: right;
+
+	width: 228px;
+
+	height: 70px;
+
+	font-size: 12px;
+
+	padding-right: 5px;
+
+}
+
+/*
+
+.box6in4 {
+
+	float: right;
+
+	width: 230px;
+
+	height: 70px;
+
+	font-size: 12px;
+
+	line-height: 130%;
+
+}
+
+*/
+
+
+
+/*------------text-----------------------------*/
+
+.catch {
+
+	color: #006699;
+
+	margin-top: 5px;
+
+	font-weight: bold;
+
+	line-height: 120%;
+
+}
+
+/*
+
+.tiny {
+
+	font-size: 9px;
+
+}
+
+*/
+

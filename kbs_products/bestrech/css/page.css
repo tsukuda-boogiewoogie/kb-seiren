@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productsWrap h2{
+	margin: 30px 0 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #00A5B1;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: normal;
+	border: 1px solid #00A5B1;
+	box-shadow:0px 0px 1px 1px #ffffff inset;
+-moz-box-shadow:0px 0px 1px 1px #ffffff inset;
+-webkit-box-shadow:0px 0px 1px 1px #ffffff inset;
+}
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

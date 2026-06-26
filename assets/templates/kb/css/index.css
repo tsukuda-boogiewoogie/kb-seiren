@@ -1,0 +1,469 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title_1 {
+
+    width: 848px;
+
+	height: 33px;
+
+	background-image: url(../images/title/brand.jpg);
+
+	background-repeat: no-repeat;
+
+}
+
+
+
+.shadow_title1 {
+
+    width: 848px;
+
+	height: 6px ;
+
+	background-image: url(../images/shadow/gradation2.jpg);
+
+	background-repeat: repeat-x;
+
+	overflow: hidden;
+
+	float: left;
+
+}
+
+
+
+.title_2 {
+
+    width: 559px;
+
+	height: 33px;
+
+	background-image: url(../images/title/news.jpg);
+
+	background-repeat: no-repeat;
+
+}
+.shinsai {
+
+    width: 559px;
+
+	height: 130px;
+
+	background-image: url(../images/title/get-well-message.jpg);
+
+	background-repeat: no-repeat;
+	
+	margin-bottom: 10px;
+
+}
+
+
+
+.shadow_title_2 {
+
+    width: 559px;
+
+	height: 6px;
+
+	background-image: url(../images/shadow/gradation2.jpg);
+
+	background-repeat: repeat-x;
+
+	overflow: hidden;
+
+}
+
+
+
+.title_3 {
+
+    width: 270px;
+
+	height: 33px;
+
+	background-image: url(../images/title/onlineshop_link.jpg);
+
+	background-repeat: no-repeat;
+
+}
+
+
+
+.shadow_title_3 {
+
+    width: 270px;
+
+	height: 6px;
+
+	background-image: url(../images/shadow/gradation2.jpg);
+
+	background-repeat: repeat-x;
+
+	overflow: hiddenl;
+
+}
+
+
+
+.ad_box1 {
+
+    width: 848px;
+
+	margin-top: 0px;
+
+}
+ul li{
+list-style:none;
+    
+}
+
+
+
+.ad_box2 {
+
+    width: 270px;
+
+	height: auto;
+
+	float: left;
+
+	margin-top: 9px;
+
+	margin-left: 19px;
+
+}
+
+
+
+.ad_box3 {
+
+    width: 270px;
+
+	height: auto;
+
+	float: right;
+
+	margin-top: 9px;
+
+}
+
+
+
+.news_box {
+
+    width:559px;
+
+	height: auto;
+
+	float: left;
+
+	margin-top: 5px;
+
+}
+
+
+
+.news_matter {
+
+    width:557px;
+
+	height: auto;
+
+	float: left;
+
+	background-color: #ffffff;
+
+	border:solid 1px;
+
+	border-color: #94bce4;
+
+	margin-top: 14px;
+
+}
+
+
+
+.onlinshop_box {
+
+    width: 270px;
+
+	height: auto;
+
+	float: right;
+
+	margin-top: 5px;
+
+}
+
+.onlinshop_box img{
+
+padding-bottom:15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************  banner_s  r**************/
+
+
+
+
+
+.brand1 {
+
+    width: 270px;
+
+	height: 114px;
+
+	margin-bottom: 16px;
+
+}
+
+
+
+.brand2 {
+
+    width: 270px;
+
+	height: 43px;
+
+	margin-bottom: 16px;
+
+}
+
+
+
+.brand3 {
+
+    width: 270px;
+
+	height: 41px;
+
+}
+
+
+
+.brand4 {
+
+    width: 270px;
+
+	height: 64px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.brand5 {
+
+    width: 270px;
+
+	height: 41px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.brand6 {
+
+    width: 270px;
+
+	height: 41px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.brand7 {
+
+    width: 270px;
+
+	height: 41px;
+
+}
+
+
+
+.brand8 {
+
+    width: 270px;
+
+	height: 64px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.brand9 {
+
+    width: 270px;
+
+	height: 42px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.brand10 {
+
+    width: 270px;
+
+	height: 42px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.online_shop_banner_space {
+
+    width: 270px;
+
+	height: auto;
+
+	margin-top: 9px;
+
+}
+
+
+
+.online_shop1 {
+
+    width: 270px;
+
+	height: 67px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.online_shop2 {
+
+    width: 270px;
+
+	height: 67px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.online_shop3 {
+
+    width: 270px;
+
+	height: 67px;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+/**********  table  **********/
+
+
+
+
+
+.table_top_space {
+
+    width: 525px;
+
+	height: auto;
+
+	margin: 13px 17px 13px 17px;
+
+}
+
+    
+
+.table_top {
+
+    width: 525px;
+
+	height: auto;
+
+	font-size: 13px;
+
+	font-weight: bold;
+
+	line-height: 18px;
+
+	color: #007dc5;
+
+	text-align: left;
+
+	vertical-align: top;
+
+}
+
+.table_top tr{
+
+height:18px;
+
+}
+
+.table_top a:link{
+
+color:#004b88;
+
+
+
+}
+
+.table_top a:hover{
+
+color:#007dc5;
+
+
+
+}
+
+
+

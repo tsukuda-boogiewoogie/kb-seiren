@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="icon-cart.svg" transform="translate(-18 -880)">
+    <circle id="楕円形_24" data-name="楕円形 24" cx="14" cy="14" r="14" transform="translate(18 880)" fill="#ff9760"/>
+    <path id="Icon_awesome-shopping-cart" data-name="Icon awesome-shopping-cart" d="M12.924,7.374l1.157-5.09a.587.587,0,0,0-.573-.717H3.9L3.672.47A.587.587,0,0,0,3.1,0H.587A.587.587,0,0,0,0,.587V.979a.587.587,0,0,0,.587.587H2.3l1.719,8.4a1.371,1.371,0,1,0,1.641.21h5.13a1.37,1.37,0,1,0,1.556-.255l.135-.594a.587.587,0,0,0-.573-.717H5.338l-.16-.783h7.174A.587.587,0,0,0,12.924,7.374Z" transform="translate(25 888)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productsWrap h2{
+	margin: 30px 0 10px;
+	padding: 5px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: #FFFFFF;
+	background: #016CB6;
+	border-radius: 6px;
+	letter-spacing: 1em;
+}
+#productsWrap .tokutyouBlock{
+	clear:both;
+}
+#productsWrap #tokutyouBlockA p strong,
+#productsWrap #tokutyouBlockB p strong,
+#productsWrap #tokutyouBlockC p strong {
+	font-size: 1.5em;
+	line-height: 1;
+	float: left;
+	margin: 0 0.5em 0 0;
+	padding: 3px 5px;
+	border-radius:9px;
+	color:#FFF;
+}
+
+#productsWrap #tokutyouBlockA p strong {
+	background-color:#F6B034;
+}
+
+#productsWrap #tokutyouBlockB p strong {
+	background: #0079B7;
+}
+#productsWrap #tokutyouBlockC p strong {
+	background-color:#0079B7;
+}
+
+
+#productsWrap #columnA{
+	background: #F9E191;
+	padding: 0 0 10px;
+	border: 1px solid #EDA718;
+	border-radius:9px;
+}
+#productsWrap #columnA h3{
+	text-align: center;
+	padding: 3px;
+	background: #EDA718;
+	margin:0 0 10px;
+	font-size:14px;
+	border-radius:9px;
+}
+#productsWrap #columnA p{
+	padding:0 10px;
+	margin:10px 0;
+	text-align:center;
+}
+
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

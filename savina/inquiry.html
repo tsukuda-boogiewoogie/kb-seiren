@@ -1,0 +1,527 @@
+<?php
+session_start();
+
+header('Content-Type: text/html;charset=Shift_JIS');
+
+// ページ遷移管理
+$pageFlag = 'form';
+if(!empty($_POST['btnConfirm'])) {
+  $pageFlag = 'confirm'; // 確認ボタンで確認画面表示
+}
+if(!empty($_POST['btnBack'])) {
+  $pageFlag = 'form'; // 戻るボタンで入力画面表示
+}
+if(!empty($_POST['btnSubmit'])) {
+  $pageFlag = 'complete'; // 送信ボタンで完了画面表示
+}
+
+// クリックジャッキング対策
+header('X-FRAME-OPTIONS: DENY');
+
+// XSS対策
+function sanitize($data) {
+  return stripslashes(htmlspecialchars($data, ENT_QUOTES, 'Shift_JIS'));
+}
+
+// 変数設定
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+  $name         = sanitize($_POST['name']);
+  $company      = sanitize($_POST['company']);
+  $division     = sanitize($_POST['division']);
+  $zip          = sanitize($_POST['zip']);
+  $address      = sanitize($_POST['address']);
+  $tel          = sanitize($_POST['tel']);
+  $fax          = sanitize($_POST['fax']);
+  $email        = sanitize($_POST['email']);
+  $ask          = sanitize($_POST['ask']);
+}
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<title>ザヴィーナ&reg;についてのお問い合わせ｜ベリーマ&reg;Xを使用した工業用マイクロファイバークロス</title>
+	<meta name="description"
+		content="ザヴィーナミニマックスを始めとするザヴィーナワイピングクロスはスーパークリーンルームなどの超無塵環境に対応した高性能ワイピングクロス。当サイトではザヴィーナワイピングクロスのすべてを紹介。">
+	<meta name="keywords"
+		content="CKワイパー,元カネボウ合繊,カネボウ,kbセーレン,ザヴィーナミニマックス,ワイピングクロス,クリーンルーム,クリーニングクロス,クリーンワイパー,無塵衣,無菌室,マイクロファイバー,クラウゼン,フイテクロスII,ザヴィーナAS,清掃用具,清掃用拭き布,超極細繊維,メガネ拭き,電子部品拭き布,吸水クロス,防塵,不織布,レンズクリーナー,ベリーマX">
+	<meta name="robots" content="INDEX,FOLLOW">
+	<meta name="robots" content="ALL">
+	<link href="css/savina.css" rel="stylesheet" type="text/css">
+	<link href="css/top.css" rel="stylesheet" type="text/css">
+	<style>
+		html {
+			scroll-behavior: initial !important;
+		}
+	</style>
+	<script type="text/javascript" src="Scripts/javascript.js"></script>
+	<script type="text/javascript" src="Scripts/swap.js"></script>
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-T3D4NWF');</script>
+	<!-- End Google Tag Manager -->
+</head>
+
+<body onLoad="MM_preloadImages('images/global/totop_f2.gif')">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3D4NWF" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div class="wrapper">
+		<div class="top">
+			<div id="headmenu">
+				<div id="topmenu"> <a href="http://www.kbseiren.com/" target="_blank"><img
+							src="https://www.kbseiren.com/savina/images/global/header-square.gif">KBセーレン株式会社</a> <a
+						href="http://www.kbseiren.com/savina/sitemap.html"><img
+							src="https://www.kbseiren.com/savina/images/global/header-square.gif">サイトマップ</a> <a
+						href="https://www.kbseiren.com/savina/inquiry.html"><img
+							src="https://www.kbseiren.com/savina/images/global/header-square.gif">お問い合わせ</a> <a
+						href="http://www.kbseiren.com/english/"><img
+							src="https://www.kbseiren.com/savina/images/global/header-square.gif">English</a> </div>
+			</div>
+			<img src="https://www.kbseiren.com/savina/images/inquiry/header_inquiry.jpg" alt="お問い合わせ" width="730" height="90">
+			<div id="headbtm"><a href="http://www.kbseiren.com/savina/" onMouseOut="MM_swapImgRestore()"
+					onMouseOver="MM_swapImage('totop','','images/global/totop_f2.gif',1)"><img
+						src="https://www.kbseiren.com/savina/images/global/totop.gif" alt="totop" name="totop" width="115"
+						height="20" border="0"></a> </div>
+		</div>
+		<div id="container">
+			<div id="secondary">
+				<div id="sidemenu_inq">
+					<ul class="menu1">
+						<li><a href="http://www.kbseiren.com/savina/">ザヴィーナ　トップページ</a></li>
+					</ul>
+					<ul class="menu1">
+						<li class="menu5"><a href="http://www.kbseiren.com/savina/belima_x.html">ザヴィーナワイビングクロスとは</a></li>
+					</ul>
+					<ul class="menu2">
+						<li class="menu4"><a href="http://www.kbseiren.com/savina/belima_x.html">「ベリーマX」使用のワイビングクロス</a></li>
+						<li><a href="http://www.kbseiren.com/savina/seisan.html">一貫生産体制</a></li>
+					</ul>
+					<ul class="menu1">
+						<li><a href="http://www.kbseiren.com/savina/savina_movie.html">ザヴィーナ紹介ムービー</a></li>
+						<li><a href="http://www.kbseiren.com/savina/lineup.html">商品紹介</a></li>
+					</ul>
+					<ul class="menu2">
+						<li><a href="http://www.kbseiren.com/savina/minimax.html">ザヴィーナMX</a></li>
+						<li><a href="http://www.kbseiren.com/savina/ckwiper.html">ザヴィーナCK</a></li>
+
+
+					</ul>
+					<ul class="menu1">
+						<li><a href="http://www.kbseiren.com/savina/news.html">お知らせ</a></li>
+						<li><a href="https://www.kbseiren.com/savina/inquiry.html">お問い合わせ</a></li>
+					</ul>
+					<div class="online"> <a href="http://www.syoujiseiren.com/SHOP/442497/list.html" target="_blank"> <img
+								src="https://www.kbseiren.com/savina/images/global/savina-onlineshop.jpg" alt="savina online shop"> </a>
+					</div>
+					<!--online-->
+				</div>
+				<!--saidemenu-->
+			</div>
+			<!--secondary-->
+			<div id="primary">
+				<div align="center">
+					<?php if($pageFlag !== 'complete'): ?>
+					<h1>サヴィーナ&reg;シリーズについてのご質問・お問い合わせ</h1>
+					<?php endif; ?>
+					<table width="490" border="0" cellspacing="0" cellpadding="0">
+
+
+
+
+
+						<?php
+//----------------------------------------------------------------------
+// 入力画面
+//----------------------------------------------------------------------
+if($pageFlag === 'form'):
+
+// CSRF対策
+if(!isset($_SESSION['csrfToken'])) {
+  $csrfToken = bin2hex(random_bytes(32));
+  $_SESSION['csrfToken'] = $csrfToken;
+}
+$token = $_SESSION['csrfToken'];
+?>
+						<tr>
+							<td>
+								<h3>お問い合わせ</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="comment">下記に必要事項を入力の上、お気軽にお問い合わせください。<div class="red">※マークは必須項目です。</div>
+								</div>
+								<form name="ask" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+									<table border="0" cellspacing="0" cellpadding="0" class="inquiryTable">
+										<tr>
+											<td width="110" align="right"><label for="name">お名前<span class="red">＊</span>：</label></td>
+											<td width="290" align="left"><input name="name" type="text" id="name" size="20" maxlength="30"
+													value="<?php if($name){echo $name;} ?>" required></td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="company">会社名：</label></td>
+											<td align="left"><input name="company" type="text" id="company" size="20" maxlength="30"
+													value="<?php if($company){echo $company;} ?>"></td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="division">部署：</label></td>
+											<td align="left"><input name="division" type="text" id="division" size="20" maxlength="30"
+													value="<?php if($division){echo $division;} ?>"></td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="zip">郵便番号<span class="red">＊</span>：</label></td>
+											<td align="left"><input name="zip" type="text" id="zip" size="20" maxlength="8"
+													value="<?php if($zip){echo $zip;} ?>" minlength="8" required pattern="^\d{3}-\d{4}">
+												<span class="red">　（半角数字・要ハイフン）</span>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="address">住所<span class="red">＊</span>：</label></td>
+											<td align="left"><input name="address" type="text" id="address" size="60" maxlength="100"
+													value="<?php if($address){echo $address;} ?>" required></td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="tel">TEL：</label></td>
+											<td align="left"><input name="tel" type="text" id="tel" size="20" maxlength="20"
+													value="<?php if($tel){echo $tel;} ?>">
+												<span class="red">　（半角数字）</span>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="fax">FAX：</label></td>
+											<td align="left"><input name="fax" type="text" id="fax" size="30" maxlength="50"
+													value="<?php if($fax){echo $fax;} ?>">
+												<span class="red">　（半角数字）</span>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="E-mail">E-mail<span class="red">＊</span>：</label></td>
+											<td align="left"><input name="email" type="email" id="E-mail" size="30" maxlength="50"
+													value="<?php if($email){echo $email;} ?>" required>
+												<span class="red">　（半角英数字）</span>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top"><label for="ask">お問い合わせ内容<span class="red">＊</span>：</label></td>
+											<td align="left"><textarea name="ask" cols="40" rows="8" id="ask"
+													required><?php if($ask){echo $ask;} ?></textarea></td>
+										</tr>
+									</table>
+									<div class="submit">
+										<input type="reset" value="リセット">
+										<input type="submit" name="btnConfirm" value="確　認">
+										<input type="hidden" name="csrf" value="<?php echo $token; ?>">
+									</div>
+								</form>
+								<br>
+							</td>
+						</tr>
+						<?php
+endif;
+?>
+
+
+
+
+
+						<?php
+//----------------------------------------------------------------------
+// 確認画面
+//----------------------------------------------------------------------
+if($pageFlag === 'confirm'):
+?>
+						<tr>
+							<td>
+								<h3>お問い合わせ</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="comment">入力された内容をご確認ください。<br>お間違いなければ、「送信」ボタンをおしてください。</div>
+								<form name="ask" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+									<table border="0" cellspacing="0" cellpadding="0" class="inquiryTable">
+										<tr>
+											<td width="110" align="right">お名前：</td>
+											<td width="290" align="left">
+												<?php echo $name; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">会社名：</td>
+											<td align="left">
+												<?php echo $company; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">部署：</td>
+											<td align="left">
+												<?php echo $division; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">郵便番号：</td>
+											<td align="left">
+												<?php echo $zip; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">住所：</td>
+											<td align="left">
+												<?php echo $address; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">TEL：</td>
+											<td align="left">
+												<?php echo $tel; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">FAX：</td>
+											<td align="left">
+												<?php echo $fax; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">E-mail：</td>
+											<td align="left">
+												<?php echo $email; ?>
+											</td>
+										</tr>
+										<tr>
+											<td align="right" valign="top">お問い合わせ内容：</td>
+											<td align="left">
+												<?php echo $ask; ?>
+											</td>
+										</tr>
+									</table>
+									<div class="submit">
+										<input type="submit" name="btnBack" value="戻　る">
+										<input type="submit" name="btnSubmit" value="送　信">
+										<?php if($name): ?><input type="hidden" name="name" value="<?php echo $name; ?>">
+										<?php endif; ?>
+										<?php if($company): ?><input type="hidden" name="company" value="<?php echo $company; ?>">
+										<?php endif; ?>
+										<?php if($division): ?><input type="hidden" name="division" value="<?php echo $division; ?>">
+										<?php endif; ?>
+										<?php if($zip): ?><input type="hidden" name="zip" value="<?php echo $zip; ?>">
+										<?php endif; ?>
+										<?php if($address): ?><input type="hidden" name="address" value="<?php echo $address; ?>">
+										<?php endif; ?>
+										<?php if($tel): ?><input type="hidden" name="tel" value="<?php echo $tel; ?>">
+										<?php endif; ?>
+										<?php if($fax): ?><input type="hidden" name="fax" value="<?php echo $fax; ?>">
+										<?php endif; ?>
+										<?php if($email): ?><input type="hidden" name="email" value="<?php echo $email; ?>">
+										<?php endif; ?>
+										<?php if($ask): ?><input type="hidden" name="ask" value="<?php echo $ask; ?>">
+										<?php endif; ?>
+										<input type="hidden" name="csrf" value="<?php echo sanitize($_POST['csrf']); ?>">
+									</div>
+								</form>
+								<br>
+							</td>
+						</tr>
+						<?php
+endif;
+?>
+
+
+
+
+
+						<?php
+//----------------------------------------------------------------------
+// 送信完了画面
+//----------------------------------------------------------------------
+if($pageFlag === 'complete'):
+
+/* メール内容設定 ここから */
+$emailFrom = 'kbs.info@kb.seiren.com';   // From
+$emailTo = $email;
+
+$subjectAdminMail = 'kb seiren【savina】お問い合わせありがとうございます。'; // 管理者宛メールのタイトル
+$subjectCustomerMail = 'kb seiren【savina】お問い合わせありがとうございます。'; // お客様宛メールのタイトル
+$weekArray = array('日', '月', '火', '水', '木', '金', '土');
+$weekData = date('w');
+$sendDatetime1 = date('Y').'年'.date('n月j日');
+$sendDatetime2 = date('H時i分');
+$sendDatetime = $sendDatetime1 . '[' . $weekArray[$weekData] . '] ' . $sendDatetime2;
+$headersAdminMail = 'From:kb seiren savina<' . $emailFrom . '>';
+$headersAdminMail .= "\n";
+$headersAdminMail .= 'Cc:kenichi.taniguchi@kb.seiren.com'; // Ccに追加
+$headersAdminMail .= ','; // 複数の場合はコンマで区切る
+$headersAdminMail .= "\n";
+$headersAdminMail .= 'Bcc:kbs.info@kb.seiren.com'; // Bccに追加
+$headersAdminMail .= ','; // 複数の場合はコンマで区切る
+$headersAdminMail .= 'kenichi.taniguchi@kb.seiren.com'; // Bccに追加
+$headersCustomerMail = 'From:kb seiren savina<' . $emailFrom . '>';
+
+// 管理者宛メールの本文
+$contentAdminMail = <<< EOD
+$name 様からお問合せがありました。
+以下の内容を確認してください。
+
+=================================================================
+▼お申込日：$sendDatetime
+
+-----------------------------------------------------------------
+▼お客様情報
+-----------------------------------------------------------------
+お名前：$name 様
+会社名：$company
+部署：$division
+
+郵便番号：〒$zip
+ご住所：$address
+TEL：$tel
+FAX：$fax
+E-mail：$email
+
+-----------------------------------------------------------------
+▼お問合せ内容
+-----------------------------------------------------------------
+お問い合わせ内容：$ask
+
+=================================================================
+
+※内容に誤りのある場合、あるいはお問い合わせにお心あたりのない方は
+savina@kb.seiren.comまでご連絡下さい。
+
+本日はお問い合わせ頂きありがとうございました。
+
+*****************************************
+KB SEIREN., LTD.
+https://www.kbseiren.com/
+savina@kb.seiren.com
+*****************************************
+EOD;
+
+// お客様宛メールの本文
+$contentCustomerMail = <<< EOD
+$name 様
+
+この度は、kb seiren【savina】へお問い合わせいただきましてありがとうございます。
+以下の内容で承りました。
+お返事まで今しばらくお待ちください。改めてご連絡いたします。
+
+=================================================================
+▼お申込日：$sendDatetime
+
+-----------------------------------------------------------------
+▼お客様情報
+-----------------------------------------------------------------
+お名前：$name 様
+会社名：$company
+部署：$division
+
+郵便番号：〒$zip
+ご住所：$address
+TEL：$tel
+FAX：$fax
+E-mail：$email
+
+-----------------------------------------------------------------
+▼お問合せ内容
+-----------------------------------------------------------------
+お問い合わせ内容：$ask
+
+=================================================================
+
+※内容に誤りのある場合、あるいはお問い合わせにお心あたりのない方は
+savina@kb.seiren.comまでご連絡下さい。
+
+本日はお問い合わせ頂きありがとうございました。
+
+*****************************************
+KB SEIREN., LTD.
+https://www.kbseiren.com/
+savina@kb.seiren.com
+*****************************************
+EOD;
+/* メール内容設定 ここまで */
+
+if($_POST['csrf'] === $_SESSION['csrfToken']) {
+  mb_language('Japanese');
+  mb_internal_encoding('Shift_JIS');
+  mb_send_mail($emailFrom, $subjectAdminMail, $contentAdminMail, $headersAdminMail, '-f'.$emailFrom);
+  mb_send_mail($emailTo, $subjectCustomerMail, $contentCustomerMail, $headersCustomerMail, '-f'.$emailFrom);
+}
+?>
+						<tr>
+							<?php if($_POST['csrf'] === $_SESSION['csrfToken']): ?>
+							<td>
+								<h3>送信しました</h3>
+							</td>
+							<?php endif; ?>
+							<?php if($_POST['csrf'] !== $_SESSION['csrfToken']): ?>
+							<td>
+								<h3>エラーが発生しました。時間を置いて再度お試しください。</h3>
+							</td>
+							<?php endif; ?>
+						</tr>
+						<tr>
+							<td>
+								<?php if($_POST['csrf'] === $_SESSION['csrfToken']): ?>
+								<div class="thank">お問い合わせありがとうございます。送信完了いたしました。<br />
+									ご入力いただいたメールアドレスに確認メールをお送りさせていただきました。<br />
+									お返事まで今しばらくお待ちください。改めてご連絡いたします。</div>
+								<?php endif; ?>
+								<div class="return"><a href="http://www.kbseiren.com/savina/">topへもどる</a></div>
+								<br>
+							</td>
+						</tr>
+						<?php
+unset($_SESSION['csrfToken']);
+endif;
+?>
+
+
+
+
+
+						<tr>
+							<td>
+								<div class="txtCenter"> <br />
+									<table width="115" border="0" align="center" cellpadding="2" cellspacing="0" title="SSLサー
+
+バ証明書導入の証 グローバルサインのサイトシール">
+										<tr>
+											<td width="115" align="center" valign="top"><span id="ss_img_wrapper_115-57_image_ja"> <a
+														href="http://jp.globalsign.com/" target="_blank"> <img alt="SSL グローバルサインのサイトシール" border="0"
+															id="ss_jpn2_gif" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_115-57_ja.gif">
+													</a> </span><br>
+												<script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gs_image_115-57_ja.js"
+													defer="defer"></script>
+												<a href="https://www.sslcerts.jp/" target="_blank" style="color:#000000;
+
+text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif;
+
+letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSLと
+
+													は?</a>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</td>
+						</tr>
+					</table>
+					</td>
+					<td width="25"><img src="https://www.kbseiren.com/savina/images/spacer.gif" width="25" height="1"></td>
+					</tr>
+					</table>
+				</div>
+			</div>
+			<div></div>
+			<div id="footer">
+				<div class="copy">Copyright(c)2006 KB SEIREN,LTD.All Rights Reserved.</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+
+</html>

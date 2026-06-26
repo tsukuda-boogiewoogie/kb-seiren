@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+#productsWrap h1
+{
+	text-align: center;
+	margin: 30px 0 20px;
+}
+
+#productsWrap h2{
+	margin:30px 0 10px;
+}
+
+#productsWrap p{
+	margin: 10px 0;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+#productsWrap p.mainCopy {
+	margin: 10px 0 20px;
+	font-size: 15px;
+	line-height: 165%;
+}
+#productsWrap p.tyusyaku {
+	margin: 10px 0;
+	font-size: 12px;
+	line-height: 130%;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+#toiawaseBlock{
+	margin: 40px auto 10px;
+	padding: 1px;
+	background-color: #EFEFEF;
+	text-align: center;
+	width: 50%;
+	min-width:270px;
+}
+
+#toiawaseBlock h2{
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	border-bottom: 1px solid #CCC;
+	padding: 4px;
+	background-color:#EEE;
+	color:#000;
+}
+#toiawaseBlock p{
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+@media screen and (max-width: 780px) {
+	#productsWrap2 h1 img
+{
+	max-width:100%;
+}
+#productsWrap h1
+{
+	text-align: center;
+	margin: 10px 0 30px;
+}
+}
+
+@media print, screen and ( min-width : 781px ) {
+#container{
+}
+#productsWrap,  #productsWrapFoot{
+	width: 550px;
+	margin: 0 auto;
+}
+.pcmaT0{
+	margin-top:0px!important;
+}
+.pcmaT05{
+	margin-top:5px!important;
+}
+.pcmaT10{
+	margin-top:10px!important;
+}
+.pcmaT20{
+	margin-top:20px!important;
+}
+.pcmaT30{
+	margin-top:30px!important;
+}
+.pcmaT40{
+	margin-top:40px!important;
+}
+.pcmaT50{
+	margin-top:50px!important;
+}
+}

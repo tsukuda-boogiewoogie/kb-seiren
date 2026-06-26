@@ -1,0 +1,275 @@
+body {
+	font-family: "Lucida Grande",,Geneva,Arial,Verdana,sans-serif;
+	font-style: normal;
+	background-color: #E6E6E6;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.wrapper {
+	background-color: #FFFFFF;
+	width: 730px;
+	color: #333333;
+	padding: 0px 30px 0px 30px;
+	margin: 0 auto;
+	text-align: left;
+}
+img {	
+	border:none;
+}
+h1 {
+	font-size : 13pt;
+	line-height :115%;
+	text-align: center;
+	color: #38708C;
+	background-color: #DCE1E5;
+	padding: 10px 0px;
+	margin: 0px;
+}
+h2 { font-size : 12pt ;line-height :120% ; }
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	color: #555555;
+	background-image: url(../images/global/h3_bg.gif);
+	background-repeat: no-repeat;
+	margin: 25px 0px 20px 0px;
+	padding-top: 8px;
+	height: 30px;
+	padding-bottom: 0px;
+}
+a {
+	color: #FF6666;
+}
+a:hover {
+	color: #006699;
+}
+/*---------menu----------------------------------------------*/
+#headmenu {
+	background-image: url(../images/global/header1.gif);
+	background-repeat: no-repeat;
+	width: 730px;
+	height: 28px;
+	text-align: right;
+}
+#headmenu img {
+	margin-right: 10px;
+}
+#headmenu a {
+	color: #000000;
+	font-size: 12px;
+	margin-right: 10px;
+}
+#headmenu a:hover {
+	color: #FFFFFF;
+}
+
+
+#headbtm {
+	background-image: url(../images/global/header2.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+	text-align: right;
+}
+
+
+#sidemenu {
+	width: 190px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+ul.menu1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.menu1 a {
+	width: 190px;
+	display: block;
+	border-bottom: 1px solid #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-image: url(../images/global/menu1.gif);
+	background-repeat: no-repeat;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.menu1 a:hover {
+	color: #FFFFFF;
+	background-image: url(../images/global/menu1_f2.gif);
+}
+
+ul.menu2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu2 a {
+	display: block;
+	border-bottom: solid 1px #FFFFFF;
+	text-decoration: none;
+	color: #666666;
+	font-size: 12px;
+	text-align: left;
+	background-image: url(../images/global/menu2.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	padding: 2px 0px 0px 14px;
+	line-height: 20px;
+
+}
+.menu2 a:hover {
+	color: #438693;
+	background-image: url(../images/global/menu2_f2.gif);
+}
+
+.menu4 a {
+	display: block;
+	border-bottom: solid 1px #FFFFFF;
+	text-decoration: none;
+	color: #666666;
+	font-size: 10px;
+	text-align: left;
+	background-image: url(../images/global/menu2.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	padding: 2px 0px 0px 14px;
+	line-height: 20px;
+
+}
+.menu4 a:hover {
+	color: #438693;
+	background-image: url(../images/global/menu2_f2.gif);
+}
+
+#topmenu {
+	text-align: right;
+	padding-top: 8px;
+}
+#topmenu img {
+	margin-right: 10px;
+}
+#topmenu a {
+	color: #000000;
+	font-size: 12px;
+	margin-right: 10px;
+}
+#topmenu a:hover {
+	color: #FFFFFF;
+}
+/*-----------------------------------------------------------*/
+
+
+/*---------font----------------------------------------------*/
+.go12r {
+	font-size: 12px;
+	line-height: 15px;
+}
+.go11r {
+	font-size: 11px;
+	font-style: normal;
+	line-height: 16px;
+}
+.go12b {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.go10r {
+	font-size: 10px;
+	line-height: 14px;
+}
+.greenbold {
+	color: #09657C;
+	font-weight: bold;
+}
+/*-----------------------------------------------------------*/
+
+.mgn10 {
+	margin:0px 10px;
+}
+.maru2 {
+	background-image: url(../images/global/maru2.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	margin: 30px 0px 4px 0px;
+	font-weight: bold;
+	color: #666666;
+	font-size: 12px;
+}
+.ask_btn {
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.title {
+	font-weight: bold;
+	background-image: url(../images/global/sankaku_bg.jpg);
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #666666;
+	padding-top: 7px;
+	height: 28px;
+	margin-top: 30px;
+}
+.titleTable {
+	margin-bottom: 10px;
+	margin-top: 30px;
+	height: 28px;
+}
+.title2 {
+	font-weight: bold;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #666666;
+	padding-top: 7px;
+	background-image: url(../images/index/sankaku_bg460.jpg);
+}
+.copy {
+	text-align: right;
+	margin-bottom: 20px;
+	color: #666666;
+	border-top: 2px solid #CCCCCC;
+	width: 730px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+/*---------inquiry----------------------------------------------*/
+.red{
+	color: #FF0000;
+}
+.comment {
+	text-align: center;
+	font-size: 12px;
+	line-height: 150%;
+}
+.inquiryTable {
+}
+.inquiryTable td{
+	padding: 5px;
+	font-size: 12px;
+}
+.submit {
+	text-align: center;
+	margin-top: 15px;
+}
+.thank {
+	font-size: 12px;
+	line-height: 150%;
+}
+.return {
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+/*-----------------------------------------------------------*/

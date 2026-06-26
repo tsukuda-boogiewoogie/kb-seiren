@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productsWrap h2{
+	margin: 30px 3px 10px 0;
+	padding: 3px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: #FFFFFF;
+	background: #F08340;
+	letter-spacing: 0.2em;
+	background-image:-webkit-gradient(linear,50% 0%,50% 97%,color-stop(0, rgb(250,148,67)),color-stop(0.97, rgb(240,131,64)),color-stop(0.99, rgb(240,131,64)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(250,148,67) 0%,rgb(240,131,64) 97%,rgb(240,131,64) 99%);
+	background-image:-ms-linear-gradient(-90deg,rgb(250,148,67) 0%,rgb(240,131,64) 97%,rgb(240,131,64) 99%);
+	background-image:linear-gradient(180deg,rgb(250,148,67) 0%,rgb(240,131,64) 97%,rgb(240,131,64) 99%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffa9443,endColorstr=#fff08340,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffa9443,endColorstr=#fff08340,GradientType=0);
+
+border-radius:3px;
+border-style:solid;
+-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.65) ,inset 0px 0px 0px rgba(255,255,255,0.25);
+box-shadow:2px 2px 2px rgba(0,0,0,0.65) ,inset 0px 0px 0px rgba(255,255,255,0.25);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff18e3f,endColorstr=#fff08340,GradientType=0)
+	progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a5000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff18e3f,endColorstr=#fff08340,GradientType=0)
+	progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a5000000,Positive=true);
+}
+#productsWrap .tokutyouBlock{
+	clear:both;
+}
+
+
+
+#productsWrap #columnA{
+	background: #F9E191;
+	padding: 0 0 10px;
+	border: 1px solid #EDA718;
+	border-radius:9px;
+}
+#productsWrap h3{
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+#productsWrap h3 {
+}
+#productsWrap h3:first-letter {
+	color: #F08340;
+}
+
+#productsWrap #columnA p{
+	padding:0 10px;
+	margin:10px 0;
+	text-align:center;
+}
+
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

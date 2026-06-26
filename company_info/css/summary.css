@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+#subMenu{
+	z-index:10000;}
+.summaryMapBlock{
+	z-index:1000;
+	}
+	
+#associated_company  h3{
+	border-left: 3px solid #77CEED;}
+#associated_company .link{
+	background-color:#77CEED;
+	padding:7px; color:#ffffff;
+	font-size:12px;
+	border-radius:5px;
+	text-decoration:none;
+	line-height:100%;
+	font-weight:bold;
+	}
+@media screen and (max-width: 780px) {
+	
+	#associated_company .link{
+	background-color:#77CEED;
+	padding:5px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing: border-box;
+	display:inline-block;
+	text-align:center;
+	}
+	}

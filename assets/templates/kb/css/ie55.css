@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.arrow {
+    width: 117px;
+	height: 103px;
+	padding: 13px 36px 14px 0;
+	float: right;
+}
+
+.arrow2 {
+    width: 116px;
+	height: 103px;
+	padding: 13px 36px 14px 17px;
+	float: left;
+	border: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-left: none;
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#productsWrap h2.youtoTypeA{
+	padding: 8px;
+	text-align: center;
+	margin: 0;
+	background-color: #0068B7;
+	color: #FFF;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

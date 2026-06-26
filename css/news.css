@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper_news {
+    width: 846px;
+	height: auto;
+	float: left;
+	border:solid 1px;
+	border-color:#0091d0;
+	margin: 10px 0 10px 0;
+	padding-bottom: 40px;
+}
+#wrapper_inquiry {
+    width: 846px;
+	height: auto;
+	float: left;
+	border:solid 1px;
+	border-color:#0091d0;
+	margin: 10px 0 10px 0;
+	padding-bottom: 40px;
+
+}
+#wrapper_inquiry table{
+	font-size:13px;
+}
+#wrapper2 {
+    width: 660px;
+	height: auto;
+	float: left;
+	margin-left: 94px;
+	margin-top: 40px;
+}
+#wrapper3 {
+    width: 660px;
+	height: auto;
+	float: left;
+	margin-left: 94px;
+	margin-top: 20px;
+}
+#wrapper4 {
+    width: 660px;
+	height: auto;
+	float: left;
+	margin-left: 94px;
+	margin-top: 20px;
+	text-align:right;
+}
+
+
+.photo {
+    width: 660px;
+	height: 150px;
+	float: left;
+	margin-top: 20px;
+}
+
+.photo1 {
+    width: 200px;
+	height: 150px;
+	float: left;
+	padding: 0 30px 0 0;
+}
+.photo2 {
+    width: 200px;
+	height: 150px;
+	float: right;
+	padding: 0 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/************  letter  r**************/
+
+
+.date {
+    font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+.date_ichiran {
+    font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.headline {
+    font-size:27px;
+	font-weight: bolder;
+	color: #0091d0;
+	text-align: left;
+	padding-top: 20px;
+}
+.headline_ichiran {
+    font-size:14px;
+	font-weight: bolder;
+	color: #0091d0;
+	text-align: left;
+	padding-top: 10px;
+}
+
+
+.article {
+    width: 550px;
+	height: auto;
+	float: left;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: left;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.article_ichiran {
+	height: auto;
+	/* float: left; */
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.article_shosai {
+    clear:both;
+	text-align:right;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #0091d0;
+}
+
+.article_index {
+    clear:both;
+	text-align:right;
+	font-size: 14px;
+}
+
+
+
+.board {
+    width: 480px;
+	height: auto;
+	float: left;
+	text-align: left;
+	border: solid;
+	border-width: 1px;
+	border-color: #0091d0;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 25px 0 25px 35px;
+}
+
+.board_ex {
+	float: left;
+	text-align: left;
+	font-size: 12px;
+	line-height: 20px;
+	text-indent: 90px;
+}
+
+.sub_title {
+    width: 660px;
+	height: 25px;
+	float: left;
+    font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	color: #0091d0;
+	padding-top: 35px;
+}
+/************  inquiry  **************/
+
+#pagebody{
+    font-size: 11pt;
+    line-height: 17px;
+	width: 600px;
+	height: auto;
+	float: left;
+	margin: 15px 0 0 150px;
+	padding-bottom: 40px;
+
+}
+
+
+
+#pagebody p{
+
+	text-align: left;
+
+	width: 600px;
+
+	font-size: 11px;
+
+	margin-top: 5px;
+
+	line-height: 20px;
+
+}

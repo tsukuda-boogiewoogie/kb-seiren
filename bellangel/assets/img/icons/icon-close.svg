@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="icon-close.svg" transform="translate(-18 -841)">
+    <g id="楕円形_25" data-name="楕円形 25" transform="translate(18 841)" fill="#fff" stroke="#ff9760" stroke-width="1">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13.5" fill="none"/>
+    </g>
+    <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M18.754,17.325l4.313-4.313a1.011,1.011,0,1,0-1.429-1.429L17.325,15.9l-4.313-4.313a1.011,1.011,0,1,0-1.429,1.429L15.9,17.325l-4.313,4.313a1.011,1.011,0,1,0,1.429,1.429l4.313-4.313,4.313,4.313a1.011,1.011,0,1,0,1.429-1.429Z" transform="translate(14.666 837.664)" fill="#ff9760"/>
+  </g>
+</svg>

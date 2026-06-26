@@ -1,0 +1,164 @@
+@charset "utf-8" ;
+
+
+
+.pic120{
+
+	height: 120px;
+
+	margin-top: 20px;
+
+
+
+}
+
+
+
+/*-------------------- hokuriku ---------------------------------*/
+
+#hoku-topvisual{
+
+	background-image: url(../img/plant-hoku/flashbox-hoku.jpg);
+
+	background-repeat: no-repeat;
+
+	width: 750px;
+
+	height: 177px;
+
+	margin-top: 20px;
+
+	margin-right: auto;
+
+	margin-bottom: 0px;
+
+	margin-left: auto;
+
+}
+
+#hoku-topvisual ul{
+
+	list-style-type: none;
+
+	padding-top: 100px;
+
+	padding-left: 370px;
+
+
+
+}
+
+#hoku-topvisual ul li a:link{
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+
+
+}
+
+#hoku-topvisual ul li a:visited{
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+
+
+}
+
+#hoku-topvisual ul li a:active{
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+
+
+}
+
+#hoku-topvisual ul li a:hover{
+
+	color: #FFFF00;
+
+	font-weight: bold;
+
+
+
+}
+
+/*-------------------- nagahama ---------------------------------*/
+
+#naga-topvisual{
+
+	background-image: url(../img/plant-naga/flashbox-naga.jpg);
+
+	background-repeat: no-repeat;
+
+	width: 750px;
+
+	height: 177px;
+
+	margin-top: 20px;
+
+	margin-right: auto;
+
+	margin-bottom: 0px;
+
+	margin-left: auto;
+
+}
+
+#naga-topvisual ul{
+
+	list-style-type: none;
+
+	padding-top: 100px;
+
+	padding-left: 420px;
+
+
+
+}
+
+#naga-topvisual ul li a:link{
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+
+
+}
+
+#naga-topvisual ul li a:visited{
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+
+
+}
+
+#naga-topvisual ul li a:active{
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+
+
+}
+
+#naga-topvisual ul li a:hover{
+
+	color: #FFFF00;
+
+	font-weight: bold;
+
+
+
+}
+

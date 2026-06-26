@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productsWrap h2{
+	margin: 30px 0 10px;
+	padding: 5px;
+	text-align: center;
+	color: #010000;
+	font-size: 16px;
+	font-weight: bold;
+	background-image: url(../images/img_back.jpg);
+	background-color: #434;
+	line-height: 150%;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#productsWrap table{
+	margin: 30px 0 10px;
+	width:100%;
+	font-size:14px;
+}
+#productsWrap table th{
+	background-color: #0FB29B;
+	color: #FFF;
+	padding: 5px;
+	font-weight: normal;
+	border: solid 1px #333;
+}
+#productsWrap table td{
+	padding:5px;
+	text-align: center;
+	border:solid 1px #333;
+}
+
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

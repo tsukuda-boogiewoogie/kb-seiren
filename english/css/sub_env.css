@@ -1,0 +1,100 @@
+@charset "utf-8" ;
+
+.iso {
+
+	margin-top: 20px;
+
+	height: 160px;
+
+}
+
+.iso img{
+
+	float: left;
+
+	margin-right: 40px;
+
+}
+
+.iso p{
+
+	width: 370px;
+
+	margin-left: 170px;
+
+	height: 110px;
+
+	padding-top: 30px;
+
+}
+
+.facilityLeft {
+
+	float: left;
+
+	width: 360px;
+
+	margin-top: 0px;
+
+	margin-right: 10px;
+
+	margin-left: 0px;
+
+}
+
+.facilityRight {
+
+	width: 360px;
+
+	float: right;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-left: 0px;
+
+}
+
+.facilityRight-2 {
+
+	width: 360px;
+
+	float: right;
+	
+	padding-bottom: 20px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-left: 0px;
+
+}
+
+/*
+
+.hight430 {
+
+	height: 430px;
+
+}
+
+*/
+
+.hight270 {
+
+	height: 270px;
+
+}
+
+p.facility {
+
+	line-height: 120%;
+
+	margin: 0px;
+
+	font-size: 12px;
+
+}
+

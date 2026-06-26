@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productsWrap h2{
+	margin: 30px 3px 10px 0;
+	padding: 3px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: #FFFFFF;
+	background: #9cd996;
+  background-image: -webkit-linear-gradient(top, #9cd996, #60b058);
+  background-image: -moz-linear-gradient(top, #9cd996, #60b058);
+  background-image: -ms-linear-gradient(top, #9cd996, #60b058);
+  background-image: -o-linear-gradient(top, #9cd996, #60b058);
+  background-image: linear-gradient(to bottom, #9cd996, #60b058);
+  border-radius:12px;
+   box-shadow: 0px 3px 3px #666666;
+}
+#productsWrap .tokutyouBlock{
+	clear:both;
+}
+
+
+#productsWrap #columnA{
+	background: #F9E191;
+	padding: 0 0 10px;
+	border: 1px solid #EDA718;
+	border-radius:9px;
+}
+#productsWrap h3{
+	margin: 10px 0 -5px;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 150%;
+	background-color: #8DC21F;
+	padding: 2px;
+	border-top: 1px solid #14833C;
+}
+#productsWrap h4{
+	margin: 10px 0 0px;
+	font-size: 14px;
+	text-align:center;
+	font-weight: normal;
+	line-height: 150%;
+	background-color:#8DC21F;
+	border-radius:10px;
+}
+
+#productsWrap #columnA p{
+	padding:0 10px;
+	margin:10px 0;
+	text-align:center;
+}
+
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

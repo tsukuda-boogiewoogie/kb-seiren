@@ -1,0 +1,191 @@
+@charset "utf-8" ;
+
+.bg-blue-short {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	margin-right: 20px;
+
+	font-size: 12pt;
+
+	font-weight: bolder;
+
+	color: #006699;
+
+	background-color: #C2E7FF;
+
+	text-align: center;
+
+	padding: 8px;
+
+	float: left;
+
+}
+
+.bg-blue-long {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12pt;
+
+	font-weight: bolder;
+
+	color: #006699;
+
+	background-color: #C2E7FF;
+
+	text-align: left;
+
+	float: left;
+
+	width: 240px;
+
+	margin-right: 10px;
+
+	padding: 8px;
+
+	margin-bottom: 20px;
+
+}
+
+.profileTable {
+
+}
+
+.profileTable td{
+
+}
+
+.profileTable td ul{
+
+
+
+}
+
+.profileTable td ul li{
+
+	list-style-image: url(../img/mark.gif);
+
+	line-height: 150%;
+
+	text-decoration: underline;
+
+}
+
+.toppage a:link {
+
+	color: #000000;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-weight: bold;
+
+	padding-bottom: 0px;
+
+	border-bottom: 1px solid #999999;
+
+	width: 210px;
+
+
+}
+
+.toppage a:visited {
+
+	color:#000000;
+
+}
+
+.toppage a:hover {
+
+	color:#0000FF;
+
+}
+
+.toppage a:active {
+
+	color:#0000FF;
+
+}
+
+
+
+
+
+
+
+
+
+.probox{
+
+	clear: both;
+
+	display: block;
+
+
+
+}
+
+
+
+.prdct{
+
+	margin-left: 280px;
+
+	padding: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+
+.prdct ul li {
+
+	float:left;
+	
+	width: 150px;
+
+	list-style-image: url(../img/mark.gif);
+
+	padding: 0px;
+
+	font-size: 12px;
+
+	margin: 0px 12px 5px 0px;
+
+	line-height: 150%;
+
+	text-decoration: underline;
+
+}
+
+.prdct ul li a {
+
+	color:#000000;
+
+	display:block;
+
+	text-decoration: none;
+
+}
+
+.prdct ul li a:visited {
+
+
+}
+
+.prdct ul li a:hover {
+
+	color:#0000FF;
+
+
+}
+
+.prdct ul li a:active {
+
+	color:#0000FF;
+
+}
+

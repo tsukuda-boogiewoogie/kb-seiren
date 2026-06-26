@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+/*    text-align: center;*/
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande","ヒラギノ角ゴ ProN W3","ヒラギノ角ゴ Pro W3","Osaka","メイリオ","ＭＳ Ｐゴシック",Geneva,Arial,Verdana,sans-serif;
+}
+#container {
+	width: 960px;
+	height: auto;
+	margin: 0px auto;
+}
+
+
+#container:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/*\*/
+*html #container {
+    height: 1em;
+    overflow: visible;
+}
+/**/
+img {
+    border: none;
+}
+.clear {
+	display:block;
+	height:1px;
+	font-size:1px;
+	clear:both;
+}
+
+#primary_products{
+	margin:0 auto;
+	width:600px;
+}
+
+
+
+/************  header  **************/
+
+.header {
+    width: 848px;
+	height: auto;
+}
+
+.logo_1 {
+	width: 187px;
+	height: 13px;
+	float:left;
+	margin-top: 20px;
+}
+
+.border_header {
+    width: 848px;
+	height: 5px;
+	float: left;
+	background-image: url(../img/shadow/gradation3.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+	margin-top: 5px;
+}
+
+.logo_2 {
+    width: 133px;
+	height: 13px;
+	float: left;
+	margin-top: 5px;
+}
+
+.cap1 {
+    font-size: 10px;
+	color: #00a6e2;
+	float: right;
+	text-align: right;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+a:link{
+  text-decoration:none;
+	color: #000000;
+}
+
+.banner_space {
+    width: 848px;
+	height: auto;
+	float: left;
+	margin-top: 6px;
+}
+.banner_top {
+    width: 848;
+	height: 150px;
+}
+.banner_top2 {
+    width: 848;
+	height: 190px;
+}
+
+
+.shadow_top {
+    width: 848px;
+	height: 11px;
+	background-image: url(../img/shadow/gradation1.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+/************  box  **************/
+
+
+#wrapper {
+    width: 848px;
+	height: auto;
+	float: left;
+	margin-top: 19px;
+	margin-bottom:60px;
+}
+#wrapper_top {
+    width: 848px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-bottom:60px;
+}
+
+#primary {
+    width: 640px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 104px;
+	text-align:left;
+}
+#primary2 {
+    width: 680px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 104px;
+}
+
+
+
+
+
+/**********  button  **********/
+
+
+#button {
+    width: 848px;
+	height: 30px;
+	float: left;
+	text-align: center;
+    display: inline;
+	margin-top: 5px;
+	margin-left: 1px;
+}
+
+.shadow_button {
+    width: 848px;
+	height: 6px;
+	float:left;
+	background-image: url(../img/shadow/gradation2.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+#button li {
+	float: left;
+	background-repeat:no-repeat;
+	list-style-type:none;
+    list-style-position:outside;
+	margin:0px;
+
+}
+
+
+
+ul{
+padding:0px;
+margin:0px;
+}
+
+
+
+
+li.home a{
+    display: block;
+	background-image: url(../img/button/home.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.home a:hover{
+    background-image: url(../img/button/home2.jpg);
+}
+
+li.news a{
+    display: block;
+	background-image: url(../img/button/news.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.news a:hover{
+    background-image: url(../img/button/news2.jpg);
+}
+
+li.product_info a{
+    display: block;
+	background-image: url(../img/button/product_info.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.product_info a:hover{
+    display: block;
+	background-image: url(../img/button/product_info2.jpg);
+	width: 106px;
+	height: 30px;
+}
+
+li.research_development a{
+    display: block;
+	background-image: url(../img/button/research_development.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.research_development a:hover{
+    background-image: url(../img/button/research_development2.jpg);
+}
+
+li.employment a{
+    display: block;
+	background-image: url(../img/button/employment.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.employment a:hover{
+    background-image: url(../img/button/employment2.jpg);
+}
+
+li.company_info a{
+    display: block;
+	background-image: url(../img/button/company_info.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.company_info a:hover{
+    background-image: url(../img/button/company_info2.jpg);
+}
+
+li.inquiry a{
+    display: block;
+	background-image: url(../img/button/inquiry.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.inquiry a:hover{
+    background-image: url(../img/button/inquiry2.jpg);
+}
+
+li.english a{
+    display: block;
+	background-image: url(../img/button/english.jpg);
+	width: 106px;
+	height: 30px;
+}
+li.english a:hover{
+    background-image: url(../img/button/english2.jpg);
+}
+
+
+
+
+
+
+
+/**********  footer  **********/
+/*
+
+#footer {
+    width: 848px;
+	height: auto;
+}
+*/
+.line_footer {
+    width: 848px;
+	height: 2px;
+	background-image: url(../img/all/footer_line.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+	float: left;
+}
+
+.space_cap2 {
+    width: 400px;
+	height: 13px;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+.cap2 {
+    font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+
+.space_cap3 {
+    width: 250px;
+	height: 11px;
+	float: right;
+	margin: 10px 0 10px 0;
+}
+
+.cap3 {
+    font-size: 11px;
+	font-weight: bold;
+	color: #00000;
+	text-align: right;
+	text-decoration: none;
+	padding: 0;
+}
+
+
+.txtRight {
+	text-align: right;	
+}
+.txtLeft {
+	text-align: left;	
+}
+.txtCenter,
+p.txtCenter{
+	text-align: center;	
+}
+p.tyuiIndent {
+	font-size: 12px;
+	color: #666;
+	margin: 1px 0;
+	padding-left: 2em;
+	text-indent: -2em;
+}
+
+
+.overflowFix{
+	_zoom: 1;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+.thank {
+	color: #F00;
+    font-size: 15px;
+}

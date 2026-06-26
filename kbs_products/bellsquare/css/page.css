@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+#productsWrap h2{
+	padding: 5px;
+	text-align: center;
+	margin: 0;
+	color: #FFF;
+	font-size: 16px;
+	background: #00A0E9;
+	border: 1px solid #05557D;
+	letter-spacing: 0.5em;
+	margin: 10px 0 0;
+}
+#productsWrap h3{
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 150%;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+#productsWrap h3:first-letter {
+	color: #00A0E9;
+}
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

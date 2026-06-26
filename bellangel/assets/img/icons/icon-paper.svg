@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="icon-paper.svg" transform="translate(-29 -525)">
+    <g id="グループ_170" data-name="グループ 170" transform="translate(11 -355)">
+      <circle id="楕円形_24" data-name="楕円形 24" cx="16" cy="16" r="16" transform="translate(18 880)" fill="#ff9760"/>
+    </g>
+    <g id="グループ_171" data-name="グループ 171" transform="translate(0 -0.488)">
+      <path id="Icon_metro-file-openoffice" data-name="Icon metro-file-openoffice" d="M17.025,5.289a13.3,13.3,0,0,0-1.279-1.463,13.306,13.306,0,0,0-1.463-1.279,2.34,2.34,0,0,0-1.334-.619H5.672A1.175,1.175,0,0,0,4.5,3.1V15.778a1.175,1.175,0,0,0,1.174,1.174h10.8a1.175,1.175,0,0,0,1.174-1.174V6.623a2.34,2.34,0,0,0-.619-1.334Zm-1.943-.8a12.805,12.805,0,0,1,1.065,1.194H13.888V3.425A12.8,12.8,0,0,1,15.082,4.49Zm1.623,11.288a.238.238,0,0,1-.235.235H5.672a.238.238,0,0,1-.235-.235V3.1a.238.238,0,0,1,.235-.235h7.277V6.153a.469.469,0,0,0,.469.469h3.286Z" transform="translate(34.501 531.56)" fill="#fff"/>
+      <line id="線_23" data-name="線 23" x1="6" transform="translate(41.073 545.5)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="線_24" data-name="線 24" x1="7.427" transform="translate(41.073 543.5)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="線_25" data-name="線 25" x1="9" transform="translate(41.073 541.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

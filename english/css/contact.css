@@ -1,0 +1,66 @@
+@charset "utf-8" ;
+
+.contactTable {
+
+	margin-left: 5%;
+
+	width: 95%;
+
+	font-size: small;
+
+}
+
+.contactTable td{
+
+	padding-bottom: 5px;
+
+	vertical-align:top;
+
+}
+
+.submitBtn{
+
+	margin-left: 240px;
+
+	margin-top: 20px;
+
+}
+
+.message{
+
+	width: 715px;
+
+	line-height: 150%;
+
+	margin-bottom: 25px;
+
+	padding-bottom: 3px;
+
+	border-bottom-width: 1px;
+
+	border-bottom-style: solid;
+
+	border-bottom-color: #0099CC;
+
+	padding-left: 15px;
+
+}
+
+.totop{
+
+	text-decoration: underline;
+
+	text-align: right;
+
+	color: #0000FF;
+
+	margin-top: 20px;
+
+	margin-right: 100px;
+
+	margin-bottom: 20px;
+
+	font-size: 12px;
+
+}
+

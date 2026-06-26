@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productsWrap h2{
+	margin: 30px 0 10px;
+	padding: 5px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: #FFFFFF;
+	background: #009FE8;
+	box-shadow: 1px 1px 3px 0px rgba(255,255,255,0.75) inset,-1px -1px 3px 0px rgba(0,0,0,0.5) inset;
+	letter-spacing: 0.5em;
+}
+
+
+#productsWrap h3{
+	text-align: center;
+	padding: 3px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #F6BA9D;
+}
+#productsWrap #columnA p{
+	padding:0 10px;
+	margin:10px 0;
+	text-align:center;
+}
+
+@media screen and (max-width: 780px) {
+	
+}
+
+@media print, screen and ( min-width : 781px ) {
+
+}

@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+.hideBlock{
+	
+}
+#searchTblWrap p{
+	margin:2px 0;
+}
+#searchTblWrap p em{
+}
+#srchBox
+{
+	width: 318px;
+	/* width: 316px; */
+	margin: 10px 0;
+	color: #FFFFFF;
+	text-align: left;
+}
+#srchBox2
+{
+	text-align: left;
+}
+#srchBox *,
+#srchBox2 *
+{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+*font-size:small;
+*font:x-small;
+}
+#srchBox a img,
+#srchBox2 a img
+{
+border:none;
+}
+#srchBox #srch,
+{
+	padding: 10px 0 10px 15px;
+}
+#srchBox2 #srch
+{
+	padding: 10px;
+	background: #F4F4F4;
+}
+
+#srchBox #srch #srchForm
+{
+	white-space:nowrap;
+}
+#srchBox #srchInput
+{
+width:188px;
+margin-right:6px;
+vertical-align:bottom;
+}
+#srchBox2 #srchInput
+{
+width:50%;
+margin-right:10px;
+vertical-align:bottom;
+}
+
+#srchBox #srchBtn,
+#srchBox2 #srchBtn
+{
+	width:100px;
+}
+*html #srchBox #srchBtn
+{
+padding-top:2px;
+}
+*:first-child+html #srchBox #srchBtn
+{
+padding-top:2px;
+}
+#srchBox ul
+{
+margin-top:6px;
+text-align:left;
+}
+#srchBox li
+{
+list-style-type:none;
+display:inline;
+zoom:1;
+padding-right:10px;
+}
+#srchBox li input
+{
+zoom:1;
+margin-right:2px;
+_margin:-4px 0 -4px -4px;
+vertical-align:middle;
+border:0;
+}
+*:+html #srchBox li input
+{
+margin:-4px 0 -4px -4px;
+}
+#srchBox #srchLogo,
+#srchBox2 #srchLogo
+{
+margin:6px 6px 6px 0;
+text-align:right;
+}
+#srchBox #srchLogo a,
+#srchBox2 #srchLogo a
+{
+color:#666666;
+text-decoration:none;
+font-size:85%;
+}
+#srchBox #srchLogo a:hover
+{
+text-decoration:underline;
+}
+#srchBox.watermark
+{
+	padding-bottom: 1px;
+}
+#srchBox.watermark #srchInput,
+#srchBox2.watermark #srchInput
+{
+padding:1px 1px 2px 1px;
+border:1px solid #a5acb2;
+background: #fff url(https://i.yimg.jp/images/search/customsearch/yjlogo/yjlogo_type4.gif) center center no-repeat;
+}
+#srchBox.watermark #srchInput.nomark
+{
+background: #fff;
+}
+#srchBox.watermark #srchLogo
+{
+display: none;
+}
+
+.searchWrap{
+	float: right;
+	width: 320px;
+}
+.searchAndLogoWrap{
+	/* height:33px; */
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/* 商品検索部分 */
+/*
+#searchBox {
+	margin-top: 5px;
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	background-color: #F3F3F3;
+	font-size: 85%;
+	white-space: nowrap;
+}
+
+#searchBox form {
+	margin: 0;
+	padding: 0;
+}
+
+#searchTitle {
+	padding: 0 0 6px;
+	color: #0F3277;
+	font-weight: bold;
+}
+
+#searchTitle span {
+	font-weight: normal;
+	color: #000000;
+}
+
+#searchTitle span#searchETitle {
+	color: #555555;
+}
+
+#panelTbl,
+#kankeiTbl,
+#syuttenTbl,
+#ecoTbl {
+	border-collapse: collapse;
+}
+
+#panelTbl,
+#kankeiTbl,
+#panelTbl th,
+#panelTbl td,
+#kankeiTbl th,
+#kankeiTbl td {
+	border: 1px solid #0F3277;
+}
+
+th {
+	border: 1px solid #0F3277;
+	color: #FFF;
+	background-color: #121D3E;
+	vertical-align: middle;
+}
+
+td.hideBlock,
+th.hideBlock
+ {
+	display:none;
+}
+
+#syuttenTbl,
+#ecoTbl,
+#syuttenTbl th,
+#syuttenTbl td,
+#ecoTbl th,
+#ecoTbl td {
+	border: 1px solid #006600;
+}
+/*
+#panelTbl,
+#kankeiTbl {
+	border-collapse: separate;
+	border-top: 1px solid #0F3277;
+	border-left: 1px solid #0F3277;
+}
+#panelTbl th,
+#panelTbl td,
+#kankeiTbl th,
+#kankeiTbl td {
+	border-bottom: 1px solid #0F3277;
+	border-right: 1px solid #0F3277;
+}
+
+#syuttenTbl,
+#ecoTbl {
+	border-collapse: separate;
+	border-top: 1px solid #006600;
+	border-left: 1px solid #006600;
+}
+#syuttenTbl th,
+#syuttenTbl td,
+#ecoTbl th,
+#ecoTbl td {
+	border-bottom: 1px solid #006600;
+	border-right: 1px solid #006600;
+}
+
+
+#panelTbl tbody.odd td,
+#kankeiTbl tbody.odd td {
+	background-color: #DAF1F7;
+}
+#panelTbl td,
+#kankeiTbl td {
+	padding:6px;
+}
+
+#panelTbl tbody.even td,
+#kankeiTbl tbody.even td {
+	background-color: #FFFFFF;
+}
+
+#syuttenTbl tbody.odd td,
+#ecoTbl tbody.odd td {
+	background-color: #FFFFFF;
+}
+
+#syuttenTbl tbody.even td,
+#ecoTbl tbody.even td {
+	background-color: #EEFBF1;
+}
+
+.searchTbl .hidden {
+	display: none;
+}
+
+.mcom {
+	font-size: 11px;
+	color: #6699CC;
+	line-height: 1;
+	padding: 5px 0 0;
+}
+
+
+.blName{
+	width: 200px;
+}
+
+tbody td.hit {
+	background-color: #FFFF00 !important;
+}
+
+.comname {
+	padding: 5px 0;
+}
+*/

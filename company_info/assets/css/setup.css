@@ -1,0 +1,127 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4
+2009-07-27
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+*{outline:none;}
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	background:transparent;
+}
+html{overflow-y: scroll;}
+body {line-height:1;}
+article, aside, dialog, figure, footer, header,hgroup, nav, section {display:block;}
+ul,ol,li {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+a {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	text-decoration:none;
+}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {vertical-align:middle;}
+[hidden] {display: none;}
+address{font-style:normal;}
+img {
+	vertical-align: top;
+	font-size:0;
+	line-height: 0;
+}
+
+/* clearfix */
+div:after, p:after, ul:after, ul li:after, dl:after, dl dt:after, dl dd:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+div, h1, h2, h3, h4, h5, h6, p, ul, li{box-sizing:border-box;}
+
+.bldFnt{font-weight:bold!important;}
+.nmlFnt{font-weight:normal!important;}
+.lrgFnt110{font-size:110%!important;}
+.lrgFnt120{font-size:120%!important;}
+.lrgFnt130{font-size:130%!important;}
+.lrgFnt140{font-size:140%!important;}
+.smlFnt90{font-size:90%!important;}
+.smlFnt85{font-size:85%!important;}
+.smlFnt80{font-size:80%!important;}
+.taLeft{text-align:left!important;}
+.taRight{text-align:right!important;}
+.taCtr{text-align:center!important;}
+.flLeft{float:left!important;}
+.flRight{float:right!important;}
+.flClr{clear:both!important;}
+.psRel{position:relative!important;}
+.psAbs{position:absolute!important;}
+.topMrg0{margin-top:0!important;}
+.topMrg5{margin-top:5px!important;}
+.topMrg10{margin-top:10px!important;}
+.topMrg15{margin-top:15px!important;}
+.topMrg20{margin-top:20px!important;}
+.topMrg25{margin-top:25px!important;}
+.topMrg30{margin-top:30px!important;}
+.topMrg35{margin-top:35px!important;}
+.topMrg40{margin-top:40px!important;}
+.topMrg50{margin-top:50px!important;}
+.topMrg60{margin-top:60px!important;}
+.topMrg70{margin-top:70px!important;}
+.topMrg80{margin-top:80px!important;}
+.topMrg90{margin-top:90px!important;}
+.topMrg100{margin-top:100px!important;}
+.topPdd0{padding-top:0!important;}
+.topPdd5{padding-top:5px!important;}
+.topPdd10{padding-top:10px!important;}
+.topPdd15{padding-top:15px!important;}
+.topPdd20{padding-top:20px!important;}
+.topPdd25{padding-top:25px!important;}
+.topPdd30{padding-top:30px!important;}
+.topPdd40{padding-top:40px!important;}
+.topPdd50{padding-top:50px!important;}
+.btmPdd0{padding-bottom:0!important;}
+.btmPdd5{padding-bottom:5px!important;}
+.btmPdd10{padding-bottom:10px!important;}
+.btmPdd15{padding-bottom:15px!important;}
+.btmPdd20{padding-bottom:20px!important;}
+.btmPdd25{padding-bottom:25px!important;}
+.btmPdd30{padding-bottom:30px!important;}
+.btmPdd40{padding-bottom:40px!important;}
+.btmPdd50{padding-bottom:50px!important;}
+.leftSp1{margin-left:1em!important;}
+.leftSp1-5{margin-left:1.5em!important;}
+.leftSp2{margin-left:2em!important;}
+.leftSp2-5{margin-left:2.5em!important;}
+.leftSp3{margin-left:3em!important;}
+.leftSp3-5{margin-left:3.5em!important;}
+.leftSp4{margin-left:4em!important;}
+.leftSp4-5{margin-left:4.5em!important;}
+.leftSp5{margin-left:5em!important;}
+.leftSp5-5{margin-left:5.5em!important;}
+.leftSp6{margin-left:6em!important;}

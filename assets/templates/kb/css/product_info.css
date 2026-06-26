@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+.headline { 
+    font-size: 16px;
+	font-weight: bolder;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.table_product_space {
+    width: 640px;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/************  letter  r**************/
+
+
+.letter1 {
+    font-size: 11px;
+	font-weight:800;
+	line-height: 20px;
+	text-indent: 3px;
+	text-align: left;
+	vertical-align:top;
+	color: #004ea2;
+}
+
+.letter1 a{
+    font-size: 11px;
+	font-weight:800;
+	line-height: 20px;
+	text-indent: 3px;
+	text-align: left;
+	vertical-align: text-top;
+	text-decoration: none;
+	color: #004ea2;
+}
+
+.letter1 a:hover{
+    font-size: 11px;
+	font-weight:800;
+	line-height: 20px;
+	text-indent: 3px;
+	text-align: left;
+	vertical-align: text-top;
+	text-decoration: none;
+	color: #bcbec0;
+}
+
+.letter1 a:visited{
+    font-size: 11px;
+	font-weight:800;
+	line-height: 20px;
+	text-indent: 3px;
+	text-align: left;
+	vertical-align: text-top;
+	text-decoration: none;
+	color: #6600cc;
+}
+
+
+.letter2 {
+    font-size: 11px;
+	font-weight:800;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: text-top;
+	color: #000000;
+}

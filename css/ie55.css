@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande","ヒラギノ角ゴ ProN W3","ヒラギノ角ゴ Pro W3","Osaka","メイリオ","ＭＳ Ｐゴシック",Geneva,Arial,Verdana,sans-serif;
+}
+#container {
+	width: 848px;
+	height: auto;
+    margin: 0px auto;
+	text-align:left;
+}
+
+
+#container:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/*\*/
+*html #container {
+    height: 1em;
+    overflow: visible;
+}
+/**/
+img {
+    border: none;
+}
+.clear {
+	display:block;
+	height:1px;
+	font-size:1px;
+	clear:both;
+}
+
+.arrow {
+    width: 117px;
+	height: 103px;
+	padding: 13px 36px 14px 0;
+	float: right;
+}
+
+.arrow2 {
+    width: 116px;
+	height: 103px;
+	padding: 13px 36px 14px 17px;
+	float: left;
+	border: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-left: none;
+}
+#wrapper2 {
+    width: 660px;
+	height: auto;
+	float: left;
+	margin-left:49px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+#primary {
+    width: 640px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 52px;
+}
+#primary2 {
+    width: 680px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 47px;
+}
+#wrapper_product {
+    width: 846px;
+	height: auto;
+	border:solid 1px;
+	border-color:#0091d0;
+	margin: 30px 0 10px 0;
+	padding-bottom: 40px;
+}
+
+div { overflow: hidden;}
+
+
+#primary_products {
+    width: 550px;
+	height: auto;
+	float: left;
+	margin-left: 74px;
+}
+
+#primary_research {
+    width: 650px;
+	height: auto;
+	float: left;
+	margin-left: 49px;
+	padding-top: 15px;
+}
+
+
+.precept_of_action{
+    width: 480px;
+	height: auto;
+    font-size: 12px;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #75bee9;
+	padding: 30px;
+	float:left;
+	margin-left: 27px;
+}
+#pagebody{
+    font-size: 11pt;
+    line-height: 17px;
+	width: 600px;
+	height: auto;
+	float: left;
+	margin: 15px 0 0 75px;
+	padding-bottom: 40px;
+
+}
+.headline2 {
+    width:640px;
+    font-size: 16px;
+	font-weight: bolder;
+	text-align: left;
+	background-image:url(../img/p_product_info/namebar.jpg);
+	background-repeat:no-repeat;
+	padding-top:5px;
+	margin-bottom:20px;
+	
+}
+.headline2 a:hovor{
+color:#0033FF;
+    
+	
+}
+.online_shop_banner_space {
+    width: 270px;
+	height: auto;
+	margin-top: 9px;
+}
+
+.online_shop1 {
+    width: 270px;
+	margin-bottom: 14px;
+}
+
+.online_shop2 {
+    width: 270px;
+	margin-bottom: 14px;
+}
+
+.online_shop3 {
+    width: 270px;
+	margin-bottom: 14px;
+}

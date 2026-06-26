@@ -1,0 +1,634 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#primary_products {
+clear:both;
+    width: 550px;
+	height: auto;
+	float: left;
+	margin-left: 149px;
+	
+}
+
+
+.clear_space5 {
+    width: 1px;
+	height: 5px;
+}
+
+.clear_space20 {
+    width: 1px;
+	height: 20px;
+}
+
+
+
+
+/**********  letter  **********/
+
+
+.caption {
+    font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.caption2 {
+    font-size: 16px;
+}
+
+.caption2-2 {
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.caption3 {
+    font-size: 14px;
+	font-weight: bold;
+}
+
+.catch_copy {
+    font-size: 14px;
+	font-weight: bold;
+	color: #6633ff;
+}
+
+.catch_copy2 {
+    font-size: 14px;
+	font-weight: bold;
+	color: #0033CC;
+	text-align: left;
+}
+
+
+
+
+.body_copy {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.body_copy_pad42 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 42px;
+}
+
+.body_copy_X {
+    font-size: 12px;
+	line-height: 15px;
+	text-align: left;
+}
+
+.body_copy_r {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.body_copy1-2 {
+    font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+}
+
+.body_copy1-3 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.body_copy1-3-2 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 12px;
+}
+
+.body_copy1-3-3 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 8px;
+}
+
+.body_copy1-4 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.body_copy1-5 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	color: #ff6600;
+}
+
+.body_copy1-5-2 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	color: #009966;
+}
+
+.body_copy1-5-3 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	color: #9900CC;
+}
+
+.body_copy1-6 {
+    font-size: 12px;
+	line-height: 15px;
+	text-align: left;
+}
+
+
+
+.body_copy2 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.body_copy2-2 {
+    font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.body_copy2-3 {
+    font-size: 14px;
+	line-height: 20px;
+	color:#006666;
+	text-align: center;
+}
+
+.body_copy2_4 {
+    font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+}
+
+.body_copy3 {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #ff3366
+}
+
+.body_copy4 {
+    font-size: 10px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.body_copy5 {
+    font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+}
+
+.body_copy5-2 {
+    font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 3px;
+}
+
+.body_copy5-3 {
+    font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.body_copy5-4 {
+    font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.body_copy5-4-2 {
+    font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+	text-indent: 5px;
+}
+
+
+
+.body_copy6 {
+    font-size: 10px;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: left;
+}
+
+.body_copy6-2 {
+    font-size: 10px;
+	font-weight: 500;
+	line-height: 18px;
+	text-align: center;
+}
+
+
+
+.body_copy7 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: left;
+}
+
+.body_copy7_r {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: right;
+}
+
+.body_copy7-2 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.body_copy7-2-2 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+	text-indent: 5px;
+}
+
+.body_copy7-3 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.body_copy7-3-2 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.body_copy7-3-3 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: middle;
+	text-indent: 2px;
+}
+
+.body_copy7-4 {
+    font-size: 10px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.body_copy7-5 {
+    font-size: 8px;
+	line-height: 18px;
+	text-align: center;
+}
+
+
+
+
+.body_copy8 {
+    font-size: 13px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+}
+
+.body_copy8-2 {
+    font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+}
+
+.body_copy8-3 {
+    font-size: 13px;
+	line-height: 18px;
+	text-align: left;
+}
+
+.body_copy9 {
+    font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+}
+
+.body_copy10 {
+    font-size: 10px;
+	line-height: 18px;
+	color: #0033ff;
+	text-align: left;
+}
+
+.body_copy10-2 {
+    font-size: 10px;
+	line-height: 18px;
+}
+
+.body_copy10-pad337 {
+    font-size: 10px;
+	line-height: 18px;
+	padding-left:337px;
+}
+
+.body_copy11 {
+    font-size: 11px;
+	line-height: 20px;
+}
+
+.body_copy11-2 {
+    font-size: 11px;
+	line-height: 15px;
+}
+
+.body_copy12 {
+    font-size: 12px;
+	line-height: 20px;
+}
+
+.body_copy13 {
+    font-size: 13px;
+	line-height: 20px;
+}
+
+
+
+
+
+
+.title_copy {
+    width: 540px;
+    font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.title_copy1-2 {
+    font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: #0099cc;
+}
+
+.title_copy1-3 {
+    font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: #000000;
+}
+
+
+
+
+.title_copy2 {
+    font-size:13px;
+	font-weight: bold;
+	line-height:18px;
+	text-align: center;
+}
+
+.title_copy2-2 {
+    font-size:13px;
+	font-weight: bold;
+	line-height:18px;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.title_copy2-3 {
+    font-size:13px;
+	font-weight: 500;
+	line-height:18px;
+	text-align: left;
+	text-indent: 2px;
+}
+
+.title_copy2-4 {
+    font-size:13px;
+	font-weight: bold;
+	line-height:18px;
+	text-align: left;
+}
+
+.title_copy3 {
+    font-size:12px;
+	font-weight: bold;
+	line-height:18px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.title_copy4 {
+    font-size:14px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 5px;
+	color: #ffffff;
+}
+
+.title_copy4-2 {
+    font-size:13px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 5px;
+	color: #ffffff;
+}
+
+.title_copy5 {
+    font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+
+.guide_copy {
+    font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.guide_copy a{
+    font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+.guide_copy a:hover{
+    font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #cc0000;
+	padding-top: 10px;
+}
+
+.inquiry_copy {
+    font-size: 10px;
+	text-align: center;
+}
+
+
+.logo_copy {
+    font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mail_address {
+    font-size: 15px;
+	text-align: center;
+}
+
+.mail_address a{
+    font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.mail_address a:hover{
+    font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #cc0000;
+}
+
+.back_to_account {
+    font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.back_to_account a{
+    font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.back_to_account a:hover{
+    font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #cc0000;
+}
+
+.back_to_top {
+    font-size: 15px;
+	text-align: center;
+}
+
+.back_to_top a{
+    font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.back_to_top a:hover{
+    font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #cc0000;
+}
+
+
+.back_to_top2 {
+    font-size: 10px;
+	text-align: right;
+}
+
+.back_to_top2 a{
+    font-size: 10px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.back_to_top2 a:hover{
+    font-size: 10px;
+	text-align: right;
+	text-decoration: none;
+	color: #cc0000;
+}
+
+
+
+
+.belimax {
+    font-size: 12px;
+	text-align: center;
+}
+
+.belimax a{
+    font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.belimax a:hover{
+    font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #cc0000;
+}
+
+
+
+/************  image  **************/
+
+
+.use {
+    display: block;
+	width: 550px;
+	height: 41px;
+    background-image: url(../products/masonic_n/img/use.jpg);
+	background-repeat:no-repeat;
+	font-size: 10px;
+	line-height: 15px;
+	text-align: left;
+	padding-top: 6px;
+	padding-left: 100px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+img.right {
+    float: right;
+}
+   

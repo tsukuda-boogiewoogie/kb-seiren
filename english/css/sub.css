@@ -1,0 +1,136 @@
+@charset "utf-8";
+.box1 {
+	width: 750px;
+	border: 1px solid #999999;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	clear: both;
+	height: 125px;
+}
+.box1in1 {
+	height: 125px;
+	width: 180px;
+	float: left;
+}
+.box1in2 {
+	float: left;
+	width: 182px;
+	padding: 0px;
+}
+.box1in3 {
+	float: right;
+	width: 386px;
+	background-color: #006699;
+	font-size: 12px;
+	height: 125px;
+}
+.box2blue {
+	color: #006699;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+.box2black {
+	font-size: 12px;
+	line-height: 110%;
+}
+.box3blue {
+	color: #006699;
+	font-size: 12px;
+	line-height: 120%;
+	font-weight: bold;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+.box3black {
+	font-size: 11px;
+}
+.box2 {
+	width: 750px;
+	border: 1px solid #999999;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	clear: both;
+	height: 100px;
+}
+.box2in1 {
+	height: 100px;
+	width: 89px;
+	float: left;
+}
+.box2in2 {
+	float: left;
+	width: 182px;
+	padding: 0px;
+}
+.box2in3 {
+	float: right;
+	width: 469px;
+	padding: 5px;
+}
+.box2in1b {
+	height: 100px;
+	width: 65px;
+	float: left;
+}
+.box2in3b {
+	float: right;
+	width: 489px;
+	}
+
+.pad8 {
+	padding: 8px;
+}
+.boxMP {
+	width: 750px;
+	margin-bottom: 5px;
+	clear: both;
+	height: 75px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box3 {
+	float: left;
+	height: 75px;
+	width: 370px;
+	border: 1px solid #999999;
+}
+.box3in1 {
+	float: left;
+	height: 75px;
+	width: 90px;
+}
+.box3in2 {
+	float: left;
+	padding: 0px;
+}
+.box3in3 {
+	float: right;
+	padding: 6px;
+	width: 162px;
+}
+.box4 {
+	float: right;
+	height: 75px;
+	width: 370px;
+	border: 1px solid #999999;
+}
+.box4in1 {
+	float: left;
+	height: 75px;
+	width: 90px;
+}
+.box4in2 {
+	float: left;
+	padding: 0px;
+}
+.box4in3 {
+	float: right;
+	padding: 6px;
+	width: 162px;
+}
+
+
+
+/*--------------box5,6 Major Business--------------*/
